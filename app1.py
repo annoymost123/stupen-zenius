@@ -1,7 +1,7 @@
 import pickle
 import streamlit as st
 
-model = pickle.load(open('C:/dumb/model_logisticregression.pkl', 'rb'))
+model = pickle.load(open('model_logisticregression.pkl', 'rb'))
 
 def main():
     st.title("House Pricing")
